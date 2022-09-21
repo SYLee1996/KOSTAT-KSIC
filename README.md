@@ -1,1 +1,1 @@
-# KOSTAT-KSIC-Korea-Standard-Industry-Code-
+# KOSTAT-KSIC(Korea Standard Industry Code)
