@@ -55,17 +55,22 @@
 ----
   
 + ### Model
-    + 대분류, 중분류, 소분류 예측을 하기위해 3head LSTM-Encoder를 사용(MLP-Mixer, SELayer 등등 타 모델 보다 나은 성능을 보였음)
-    + Token embedding은 LSTM을 통해 압축되며, 각각의 head를 통해 클래스가 분류됨
-    + torch.nn.Embedding을 추가하여 token embedding vector 학습시킴 
-    + (대분류 -> 중분류 -> 소분류 순의 계층이 존재하여, 분류 예측 시 해당 분류에 속하는 하위 분류 이외의 클래스에는 큰 loss 값을 갖도록 학습 시켰지만 낮은 성능과 긴 런타임)
-    
-    + StratifiedKFold를 사용하여 cross validation을 진행함
-    + scheduler: CosineAnnealingLR
-    + Loss : SmoothCrossEntropyLoss 사용(Focal_loss 및 FocalLoss_With_Smoothing 사용 시 validation 낮은 성능)
-    + optimizer : AdamW 사용(SAM optimizer 사용 시 상대적 낮은 성능)
-    + EarlyStopping 사용
-    + automatic mixed precision 사용
+    + 대분류, 중분류, 소분류 예측을 하기위해 3head LSTM-Encoder를 사용
+      + MLP-Mixer, SELayer 등등 타 모델 보다 나은 성능을 보임
+      + 대분류 -> 중분류 -> 소분류 순으로 계층이 존재하기 때문에 예측 시 해당 분류에 속하는 하위 분류 이외에는 큰 loss 값을 갖도록 학습 -> 낮은 성능과 긴 런타임
+
+
+    + torch.nn.Embedding을 추가하여 token embedding vector 학습시킴
+      + Token embedding은 LSTM을 통해 압축되며, 각각의 head를 통해 클래스가 분류됨 
+        
+        
+    + Model techniques
+      + StratifiedKFold를 사용하여 cross validation을 진행함
+      + scheduler: CosineAnnealingLR
+      + Loss : SmoothCrossEntropyLoss 사용(Focal_loss 및 FocalLoss_With_Smoothing 사용 시 validation 낮은 성능)
+      + optimizer : AdamW 사용(SAM optimizer 사용 시 상대적 낮은 성능)
+      + EarlyStopping 사용
+      + automatic mixed precision 사용
 
 ----
 
