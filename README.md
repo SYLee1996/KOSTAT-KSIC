@@ -1,6 +1,6 @@
 # KSIC(Korea Standard Industry Code) - 자연어 기반 인공지능 산업분류 자동화
 
-## 3head LSTM-encoder + Word2vec Embedding layer
+## ##  | Acc 0.9048 | 3head LSTM-encoder + Word2vec Embedding layer
 
 + 주최 및 주관: 통계청 
 + 링크: https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000575&curMenuNo=OPT_09_03_00_0
