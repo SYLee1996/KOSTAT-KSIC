@@ -36,7 +36,7 @@
   ![image](https://user-images.githubusercontent.com/30611947/191689399-870c21f1-b83a-41f5-97d4-904fb242d35f.png)
 
         
-      7. 사전학습된 한국어 Word2vec vocab에 생성된 token을 추가한 후 word2vec 재학습
+      7. 사전학습된 한국어 Word2vec vocab에 생성된 token을 추가한 후 word2vec 재학습(Contextual word Embedding 아님 -> Static word Embedding 수행)
          - Pre-trained word vector of Korean은 다음의 github에서 다운 받을 수 있음(https://github.com/Kyubyong/wordvectors)
          - 아래 이미지는 pretrained word2vec의 재학습을 통해 주어진 token과 높은 유사도를 가지는 token을 높은순으로 나열
       
