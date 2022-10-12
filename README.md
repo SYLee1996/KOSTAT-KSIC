@@ -9,13 +9,13 @@
 
 ![image](https://user-images.githubusercontent.com/30611947/191687824-56ac6796-1103-4c20-bf17-6f6982f9ccf7.png)
 
-+ -> 'text_obj', 'text_deal', 'text_mthd'를 통해 대분류, 중분류, 소분류(digit_1, digit_2, digit_3)를 예측하는 task
++ -> 'text_obj', 'text_deal', 'text_mthd'를 통해 대분류, 중분류, 소분류(digit_1, digit_2, digit_3)를 예측하는 task (ex. 숙박 및 음식점업, 음식점 및 주점업, 기타 간이 음식점업)
 
 
 
 ----
 ## Summary
-+ ### Data preprocessing
++ ### Data preprocessing(문맥에 따른 embedding이 달라지지 않을거라 판단하여 Word2vec 사용)
 
       1. Text에 대해 [^가-힣 0-9 a-z A-Z]+$ -> '' 로 전처리 및 좌우 공백 전처리
       
