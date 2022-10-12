@@ -97,5 +97,3 @@
   
   + 사후 분석 및 후처리를 진행하지 않았기 때문에 후처리 분석을 수행
   + 다양한 모델과의 Ensemble 시도
-
-      + automatic mixed precision 사용
