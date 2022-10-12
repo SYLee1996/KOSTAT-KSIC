@@ -5,7 +5,7 @@
 + 주최 및 주관: 통계청 
 + 링크: https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000575&curMenuNo=OPT_09_03_00_0
 
-+ 텍스트 데이터를 바탕으로 산업의 대분류, 중분류, 소분류를 예측하는 문제입니다.
++ 텍스트 데이터를 바탕으로 산업의 대분류(21), 중분류(77), 소분류(232)를 예측하는 문제입니다.
 
 ![image](https://user-images.githubusercontent.com/30611947/191687824-56ac6796-1103-4c20-bf17-6f6982f9ccf7.png)
 
