@@ -64,7 +64,7 @@
 
 
     + torch.nn.Embedding을 추가하여 token embedding vector 학습시킴
-      + Word2vec을 통한 token embedding을 layer에 추가하여, trainable vector로써 학습시킴(학습 시 성능 향상)
+      + Word2vec의 token embedding을 layer에 추가하여, trainable vector로써 학습시킴(학습 시 성능 향상)
         
         
     + Model techniques
