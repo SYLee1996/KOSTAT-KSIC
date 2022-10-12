@@ -98,6 +98,9 @@
 + ## Result 
   ![image](https://user-images.githubusercontent.com/30611947/191701851-293cbdee-ae53-426f-a9dc-937c0b6aaf34.png)
   
+  
++ ## 개선할 점
+
   + 사후 분석 및 후처리를 진행하지 않았기 때문에 후처리 분석을 수행
   + 다양한 모델과의 Ensemble 시도
   + Clustering 시 UMAP 고려
