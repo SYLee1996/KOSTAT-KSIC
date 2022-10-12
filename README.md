@@ -48,7 +48,7 @@
 
 </br>
 
-  + Token을 추가하여 재학습된 word2vec vocab의 t-SNE 시각화
+  + Token을 추가하여 재학습된 word2vec vocab의 t-SNE 시각화(Cluster간의 distance 고려 X)
 
   ![image](https://user-images.githubusercontent.com/30611947/191692182-2b82accd-b03d-47c9-9304-c950dff48aeb.png)
 
