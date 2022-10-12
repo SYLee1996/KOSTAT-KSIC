@@ -64,7 +64,7 @@
 
 
     + torch.nn.Embedding을 추가하여 token embedding vector 학습시킴
-      + Token embedding은 LSTM을 통해 압축되며, 각각의 head를 통해 클래스가 분류됨 
+      + Word2vec을 통한 token embedding을 layer에 추가하여, trainable vector로써 학습시킴 
         
         
     + Model techniques
