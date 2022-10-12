@@ -95,4 +95,7 @@
 + ## Result 
   ![image](https://user-images.githubusercontent.com/30611947/191701851-293cbdee-ae53-426f-a9dc-937c0b6aaf34.png)
   
-  + 단일 모델 사용, 사후 분석 및 후처리를 진행하지 않았기 때문에 Ensemble 또는 후처리 분석을 수행했다면 좀 더 높은 성늘이 나오지 않았을까 하는 아쉬움이 있습니다.
+  + 사후 분석 및 후처리를 진행하지 않았기 때문에 후처리 분석을 수행
+  + 다양한 모델과의 Ensemble 시도
+
+      + automatic mixed precision 사용
